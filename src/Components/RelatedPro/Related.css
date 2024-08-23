@@ -1,0 +1,62 @@
+/*.related{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 90vh;
+
+}
+
+.related h1{
+    color: #171717;
+    font-size:50px ;
+    font-weight: 600;
+}
+
+.related hr{
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background: #252525;
+
+}
+
+.related-item{
+    margin-top: 50px;
+    display: flex;
+    gap:30px ;
+   
+}
+    */
+
+    .related {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding-bottom: 50px; /* Added padding at the bottom to prevent overlap */
+        box-sizing: border-box; /* Ensures padding and margin calculations include the padding */
+        min-height: 90vh; /* Ensures the section takes up at least 90% of the viewport height */
+    }
+    
+    .related h1 {
+        color: #171717;
+        font-size: 50px;
+        font-weight: 600;
+    }
+    
+    .related hr {
+        width: 200px;
+        height: 6px;
+        border-radius: 10px;
+        background: #252525;
+    }
+    
+    .related-item {
+        margin-top: 50px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap; /* Allows items to wrap to the next line if necessary */
+        justify-content: center; /* Centers the items horizontally */
+    }
+    
